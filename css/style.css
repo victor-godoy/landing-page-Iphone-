@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container-gg {
+  max-width: 100%;
+}
+
+.menu {
+  padding: 20px;
+  background: #1d1d1f;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 50px;
+}
+
+.menu ul {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  font-weight: 400;
+  color: #888;
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.menu a:hover {
+  color: #fff;
+}
+
+/* main */
+.geral {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 160px;
+}
+
+.text img {
+  width: 15rem;
+}
+
+.text h1 {
+  font-size: 1.5rem;
+  margin: 30px 0;
+}
+
+.text p {
+  font-size: 1.125rem;
+  margin: 25px 0;
+  max-width: 50ch;
+}
+
+.text span {
+  color: #999;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 25px 0;
+  padding: 10px 25px;
+  background: #0071e3;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+.btn:hover {
+  opacity: 0.85;
+}
+
+.colors {
+  color: #444;
+  font-size: 1rem;
+  margin: 15px 0;
+}
+
+.colors-btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.color-esc {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px #888;
+  transition: all 0.5s;
+}
+
+.color-esc:hover {
+  opacity: 0.8;
+}
+
+#green {
+  background: #384937;
+}
+
+#pink {
+  background: #f8ddd6;
+}
+
+#blue {
+  background: #225f7e;
+}
+
+#black {
+  background: #192028;
+}
+#white {
+  background: #f7f2ee;
+}
+
+#red {
+  background: #ae0617;
+}
+.image-colors {
+  transition: all 1s ease;
+  z-index: 1;
+}
+.image-colors img {
+  width: 500px;
+  transform: rotate(-7deg);
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #445c42;
+  clip-path: circle(
+    800px at right 1000px
+  ); /*circulo - tamanho - direcao - tela */
+}
